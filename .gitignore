@@ -17,6 +17,14 @@ dist-ssr
 .env.local
 .env.production
 
+# CV and personal documents
+*.pdf
+*.txt
+!README.md
+!PORTFOLIO_SETUP.md
+!EMAILJS_SETUP.md
+!QUICK_SETUP.md
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
