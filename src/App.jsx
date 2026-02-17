@@ -9,7 +9,7 @@ function App() {
   const downloadCV = () => {
     const link = document.createElement('a');
     link.href = '/Resume Abdirahim Omar Hassan (1).pdf';
-    link.download = 'Abdirahim_Omar_Hassan_CV.pdf';
+    link.download = 'Resume Abdirahim Omar Hassan (1).pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
