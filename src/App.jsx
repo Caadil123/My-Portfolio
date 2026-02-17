@@ -7,10 +7,9 @@ import Footer from './components/Footer';
 
 function App() {
   const downloadCV = () => {
-    // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = '/Abdirahim_Omar_Hassan_Freelance_Software_Developer_CV.pdf'; // CV file in public folder
-    link.download = 'Abdirahim_Omar_Hassan_Freelance_Software_Developer_CV.pdf';
+    link.href = '/Resume Abdirahim Omar Hassan (1).pdf';
+    link.download = 'Abdirahim_Omar_Hassan_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
